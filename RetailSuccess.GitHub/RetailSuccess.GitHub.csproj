@@ -4,4 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Octokit" Version="0.29.0" />
+    <PackageReference Include="RetailSuccess.DependencyInjection" Version="0.1.0-beta00297" />
+    <PackageReference Include="RetailSuccess.Paramore.Brighter.DependencyInjection" Version="0.6.0" />
+    <PackageReference Include="RetailSuccess.Paramore.Darker.DependencyInjection" Version="0.2.0" />
+  </ItemGroup>
+
 </Project>
